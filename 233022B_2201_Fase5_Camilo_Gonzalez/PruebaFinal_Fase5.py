@@ -1,3 +1,7 @@
+# Programa para auditar inventario y calcular
+# la cantidad de articulos que necesitan ser reabastecidos.
+
+
 # funcion para calcular la cantidad a pedir
 def cantidad_a_pedir(stock_actual, stock_minimo):
   
@@ -9,11 +13,18 @@ def cantidad_a_pedir(stock_actual, stock_minimo):
 # lista de artículos con su código, nombre, stock actual y stock mínimo
 
 articulos = [
-    [101, "Lapicero", 12, 20],
+    [101, "esfero", 12, 20],
     [102, "Cuaderno", 25, 15],
     [103, "Resaltador", 5, 10],
     [104, "Carpeta", 6, 8],
-    [105, "Papel bond", 3, 12],
+    [105, "Regla", 3, 12],
+    [106, "borrador", 20, 25],
+    [107, "sacapuntas", 8, 10],
+    [108, "Pegante", 15, 20],
+    [109, "Tijeras", 4, 6],
+    [110, "Cinta adhesiva", 10, 15],
+    [111, "Marcador", 12, 12],
+
 ]
 
 # programa principal
